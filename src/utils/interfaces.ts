@@ -1,6 +1,6 @@
 
 
-interface Opening {
+interface IOpening {
     id: number,
     name: string,
     png: string,
@@ -10,5 +10,5 @@ interface Opening {
 
 
 export type {
-    Opening,
+    IOpening,
 }

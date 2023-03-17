@@ -1,18 +1,19 @@
 import { useState } from "react";
 import openings_json from "../data/openings.json";
-import { Opening } from "../utils/interfaces";
+import { IOpening } from "../utils/interfaces";
+import Opening from "./Opening";
 
 function Openings() {
-  const [openings, setOpenings] = useState<Opening[]>(openings_json);
+  const [openings, setOpenings] = useState<IOpening[]>(openings_json);
 
   return (
     <div>
-      <h1>Openings</h1>
-      <ul>
+      <h3>Echa un vistazo a nuestras Aperturas</h3>
+      <div>
         {openings.map((opening) => (
-          <li key={opening.id}>{opening.name}</li>
+          <Opening key={opening.id} opening={opening} />
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
