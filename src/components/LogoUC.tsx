@@ -1,12 +1,30 @@
 import uc_logo from '../images/uc_logo.svg';
 import styled from 'styled-components';
+import ReactCurvedText from 'react-curved-text';
 
 
 function LogoUC() {
     return (
         <Container>
             <Logo src={uc_logo} alt="puc" />
-            <Title>Ajedrez UC</Title>
+            {/* <Title>Ajedrez UC</Title> */}
+            
+            <Title>
+            <ReactCurvedText width='135'
+                height='140'
+                cx='66'
+                cy='0'
+                rx='100'
+                ry={100}
+                startOffset='135'
+                reversed={false}
+                text='Ajedrez UC'
+                textProps={{"style": {fontSize: 8, fill: "white", fontFamily: "Tahoma"}}}
+                textPathProps={null}
+                tspanProps={null}
+                ellipseProps={null}
+                svgProps={null} />
+            </Title>
         </Container>
     );
 }
@@ -28,8 +46,6 @@ const Logo = styled.img`
 const Title = styled.div`
     margin: 0;
     position: absolute;
-    font-weight: normal;
-    top: 52px;
-    left: 21px;
-    font-size: 13px;
+    top: -33px;
+    left: -10px;
 `;
