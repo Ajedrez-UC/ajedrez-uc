@@ -3,8 +3,9 @@
 interface IOpening {
     id: number,
     name: string,
-    png: string,
+    pgn: string,
     fen: string,
+    orientation: string,
     in_charge: string,
 }
 

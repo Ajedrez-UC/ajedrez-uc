@@ -1,11 +1,11 @@
 import Openings from "./components/Openings";
 import styled from "styled-components";
-
+import PageTitle from "./components/PageTitle";
 
 function App() {
   return (
     <Container>
-      <h1>Ajedrez UC</h1>
+      <PageTitle/>
       <Openings />
     </Container>
   );
@@ -19,4 +19,5 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 `;
