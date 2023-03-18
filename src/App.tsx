@@ -5,6 +5,7 @@ import WhoAreWe from "./components/WhoAreWe";
 import People from "./components/People";
 import PabloCalvo from "./components/PabloCalvo";
 import ChessTools from "./components/ChessTools";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Openings/>
       <ChessTools/>
       <PabloCalvo/>
+      <Footer/>
     </Container>
   );
 }
