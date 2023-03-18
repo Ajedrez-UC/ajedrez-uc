@@ -42,6 +42,7 @@ const Container = styled.div`
     width: 100%;
     max-width: 700px;
     padding: 20px 0;
+    padding-top: 30px;
 `;
 
 const Title = styled.h2`

@@ -26,7 +26,7 @@ export default PabloCalvo;
 
 const Image = styled.img`
     width: 250px;
-    margin: 20px;
+    margin: 30px 0;
     border-radius: 50%;
     filter: grayscale(1);
     border: 4px solid #f8fafc;

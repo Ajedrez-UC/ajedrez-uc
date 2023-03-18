@@ -80,27 +80,28 @@ const Container = styled.div`
     max-width: 700px;
     flex-wrap: wrap;
     padding: 20px 0;
+    padding-bottom: 70px;
 `;
 
 
-const Icon = styled.i`
-    width: 10px;
-    text-align: center;
-    margin-right: 10px;
-    margin-top: 1px;
-`;
+// const Icon = styled.i`
+//     width: 10px;
+//     text-align: center;
+//     margin-right: 10px;
+//     margin-top: 1px;
+// `;
 
-const Link = styled.a`
-    color: #0f172a;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    font-weight: bold;
-    &:hover {
-        filter: brightness(1.2);
-        text-decoration: underline;
-    }
-`;
+// const Link = styled.a`
+//     color: #0f172a;
+//     text-decoration: none;
+//     display: inline-flex;
+//     align-items: center;
+//     font-weight: bold;
+//     &:hover {
+//         filter: brightness(1.2);
+//         text-decoration: underline;
+//     }
+// `;
 
 const Title = styled.h3`
     margin: 10px 0;

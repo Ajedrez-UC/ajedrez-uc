@@ -6,6 +6,7 @@ import PabloCalvo from "./components/PabloCalvo";
 import ChessTools from "./components/ChessTools";
 import Library from "./components/Library";
 import Footer from "./components/Footer";
+import FAQ from "./components/FAQ";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <PageTitle/>
       <WhoAreWe/>
       <People/>
+      <FAQ/>
       <Library/>
       <ChessTools/>
       <PabloCalvo/>
