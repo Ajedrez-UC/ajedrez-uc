@@ -29,10 +29,10 @@ function FAQ(){
             <Question>
                 <Title>¿Cómo puedo unirme a la selección?</Title>
                 <p>
-                    Normalmente 3 formas de unirte a la selección:
+                    Normalmente hay 3 formas de unirte a la selección:
                     <ol>
                         <li>
-                            Dar y aprobar Ajedrez I, luego hablar con el profesor para ver si te puedes unir a la selección.
+                            Dar y aprobar Ajedrez I, luego hablar con el profesor.
                         </li>
                         <li>
                             Si ya tienes bastante experiencia en ajedrez,
@@ -40,7 +40,7 @@ function FAQ(){
                         </li>
                         <li>
                             Ser nivel muy alto en ajedrez (alto Elo fide),
-                            y hablar directamente con el profesor para ver si te puedes unir a la selección.
+                            y hablar directamente con el profesor.
                         </li>
                     </ol>
                 </p>

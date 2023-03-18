@@ -21,6 +21,7 @@ const Container = styled.div`
     background-color: rgb(11 16 26);
     padding: 20px 0;
     color: #94a3b8;
+    font-size: 0.8rem;
     & span {
         margin-right: 20px;
     }

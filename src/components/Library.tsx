@@ -23,7 +23,7 @@ function Library(){
             Para más contenido, visita 
             <Link href="https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211951&cid=5E5B60C097FB962E"
             target="_blank" rel="noreferrer">
-                nuestra biblioteca</Link>.
+                nuestra biblioteca.</Link>
         </SubContainer>
     </Container>
     )
