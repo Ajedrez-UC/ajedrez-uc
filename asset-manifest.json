@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ajedrez-uc/static/css/main.e6c13ad2.css",
-    "main.js": "/ajedrez-uc/static/js/main.c809a11a.js",
+    "main.js": "/ajedrez-uc/static/js/main.3f255b6f.js",
     "static/js/787.1a08a126.chunk.js": "/ajedrez-uc/static/js/787.1a08a126.chunk.js",
     "static/media/bele.png": "/ajedrez-uc/static/media/bele.a9d7dc929449333b2214.png",
     "static/media/daniel.png": "/ajedrez-uc/static/media/daniel.5a6d2e2caee6dcb8e23e.png",
@@ -13,11 +13,11 @@
     "index.html": "/ajedrez-uc/index.html",
     "static/media/lichess.svg": "/ajedrez-uc/static/media/lichess.d07684b8726ccbddd70b3c81fb70ef56.svg",
     "main.e6c13ad2.css.map": "/ajedrez-uc/static/css/main.e6c13ad2.css.map",
-    "main.c809a11a.js.map": "/ajedrez-uc/static/js/main.c809a11a.js.map",
+    "main.3f255b6f.js.map": "/ajedrez-uc/static/js/main.3f255b6f.js.map",
     "787.1a08a126.chunk.js.map": "/ajedrez-uc/static/js/787.1a08a126.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c809a11a.js"
+    "static/js/main.3f255b6f.js"
   ]
 }
