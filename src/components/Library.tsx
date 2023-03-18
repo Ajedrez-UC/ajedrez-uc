@@ -94,5 +94,6 @@ const SubContainer = styled.div`
     justify-content: center;
     max-width: 700px;
     margin: 20px 10px;
+    margin-bottom: 70px;
 `;
     

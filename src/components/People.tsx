@@ -60,7 +60,7 @@ const Person = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(53 79 151);
+    background-color: #0369a1;
     color: #f8fafc;
     & span {
         text-align: justify;

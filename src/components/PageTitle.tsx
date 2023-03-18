@@ -9,11 +9,11 @@ function PageTitle(){
                 <Title>Ajedrez UC</Title>
             </Logo>
             <SocialMedia>
-                <Link href="https://www.instagram.com/seleccionajedrezuc/">
+                <Link href="https://www.instagram.com/seleccionajedrezuc/" target={"_blank"} rel={"noreferrer"} >
                     <Icon className="fa fa-instagram" style={{fontSize: "1.5rem"}}></Icon>
                     <span>@seleccionajedrezuc</span>
                 </Link>
-                <Link href="https://t.me/joinchat/H0vd50Z4xKgwrVf_6Efiiw">
+                <Link href="https://t.me/joinchat/H0vd50Z4xKgwrVf_6Efiiw" target={"_blank"} rel={"noreferrer"} >
                     <Icon className="fa fa-telegram" style={{fontSize: "1.5rem"}}></Icon>
                     <span>DCChess</span>
                 </Link>
@@ -66,7 +66,7 @@ const Bar = styled.div`
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(30 52 114);
+    background-color: #0284c7;
     color: #f8fafc;
     padding: 10px 0;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);

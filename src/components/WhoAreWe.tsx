@@ -21,7 +21,7 @@ function WhoAreWe() {
             <span>
                 <Icon className="fa fa-info" style={{fontSize: "1.5rem"}}></Icon>
                 Para más información puedes contactarnos a través de nuestro 
-                <Link href="https://www.instagram.com/seleccionajedrezuc/" >
+                <Link href="https://www.instagram.com/seleccionajedrezuc/" target={"_blank"} rel={"noreferrer"} >
                 instagram.
                 </Link>
             </span>

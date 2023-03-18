@@ -57,8 +57,8 @@ const Container = styled.div`
     justify-content: center;
     width: 100%;
     background-color: #1e293b;
-    padding: 20px 0;
-    padding-bottom: 40px;
+    padding: 50px 0;
+    padding-bottom: 70px;
 `;
 
 const SubContainer = styled.div`

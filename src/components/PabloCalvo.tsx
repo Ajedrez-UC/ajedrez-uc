@@ -41,7 +41,7 @@ const Container = styled.div`
     width: 100%;
     background-color: #111827;
     color: #f8fafc;
-    padding: 30px 0;
+    padding: 50px 0;
     background-size: cover;
 
 `;
