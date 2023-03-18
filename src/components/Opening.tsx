@@ -91,6 +91,7 @@ const SubContainer = styled.div`
 const BoardContainer = styled.div`
     margin: 10px;
     border: 3px solid #0f172a;
+    pointer-events: none;
 `;
 
 const InfoContainer = styled.div`
