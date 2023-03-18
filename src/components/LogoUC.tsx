@@ -7,7 +7,6 @@ function LogoUC() {
     return (
         <Container>
             <Logo src={uc_logo} alt="puc" />
-            {/* <Title>Ajedrez UC</Title> */}
             
             <Title>
             <ReactCurvedText width='135'

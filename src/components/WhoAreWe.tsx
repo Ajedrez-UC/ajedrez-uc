@@ -6,17 +6,17 @@ function WhoAreWe() {
         <Title>¿Quiénes somos?</Title>
         <Description>
             <p>
-                Hola! Somos la <Bold>selección de Ajedrez UC</Bold>.
+                Hola! Somos la <Bold>selección de Ajedrez de la Pontificia Universidad Católica de Chile</Bold>.
                 Nuestro objetivo es promover el ajedrez en la universidad y en la comunidad.
             </p>
 
             <span>
                 <Icon className="fa fa-calendar" style={{fontSize: "1.5rem"}}></Icon>
-                Disponible para ir de oyente los días <Bold>lunes y miércoles de 18:30 a 20:50 hrs</Bold>.
+                Disponible para ir de oyente los días <Bold>lunes y miércoles de 18:30 a 19:50 hrs</Bold>.
             </span>
             <span>
                 <Icon className="fa fa-map-marker" style={{fontSize: "1.5rem"}}></Icon>
-                Estamos ubicados en la <Bold>Sala Corporal N°3</Bold>, tercer piso de deportes.
+                Estamos ubicados en la <Bold>Sala Corporal N°3</Bold>, tercer piso de deportes, Campus San Joaquín.
             </span>
             <span>
                 <Icon className="fa fa-info" style={{fontSize: "1.5rem"}}></Icon>
