@@ -8,6 +8,7 @@ import lichess_svg from "../images/lichess.svg";
 function Opening({opening}: {opening: IOpening}){
 
     const orientation = opening.orientation === "white" ? "white" : "black";
+    const url = JSON.stringify(opening.url).trim().replace(/"/g, "");
 
     return (
         <Container>
@@ -24,7 +25,7 @@ function Opening({opening}: {opening: IOpening}){
 
                 <InfoContainer>
                     <MovesTable pgn={changePGNwithSymbols(opening.pgn)} />
-                    <Link href="https://lichess.org/study/rm5ouzlE">
+                    <Link href={url}>
                         <Logo src={lichess_svg} alt="Lichess" />
                         Ver estudio
                     </Link>

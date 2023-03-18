@@ -68,8 +68,8 @@ const Bar = styled.div`
     justify-content: space-evenly;
     background-color: rgb(30 52 114);
     color: #f8fafc;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 10px 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 
 `;
 

@@ -9,12 +9,14 @@ function Openings() {
 
   return (
     <Container>
-      <Title>Echa un vistazo a nuestras Aperturas</Title>
-      <OpContainer>
-        {openings.map((opening) => (
-          <Opening key={opening.id} opening={opening} />
-        ))}
-      </OpContainer>
+      <SubContainer>
+        <Title>Echa un vistazo a nuestras Estudios</Title>
+        <OpContainer>
+          {openings.map((opening) => (
+            <Opening key={opening.id} opening={opening} />
+          ))}
+        </OpContainer>
+      </SubContainer>
     </Container>
   );
 }
@@ -22,13 +24,23 @@ function Openings() {
 export default Openings;
 
 
-const Container = styled.div`
+const SubContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   max-width: 600px;
+`;
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #cbd5e1;
+
 `;
 
 
@@ -39,7 +51,7 @@ const OpContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  margin: 10px 0;
+  margin: 30px 0;
   width: 100%;
   text-align: center;
 `;

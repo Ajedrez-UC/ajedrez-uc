@@ -1,12 +1,16 @@
 import Openings from "./components/Openings";
 import styled from "styled-components";
 import PageTitle from "./components/PageTitle";
+import WhoAreWe from "./components/WhoAreWe";
+import People from "./components/People";
 
 function App() {
   return (
     <Container>
       <PageTitle/>
-      <Openings />
+      <WhoAreWe/>
+      <People/>
+      <Openings/>
     </Container>
   );
 }

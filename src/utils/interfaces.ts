@@ -5,6 +5,7 @@ interface IOpening {
     name: string,
     pgn: string,
     fen: string,
+    url: string,
     orientation: string,
     in_charge: string,
 }
