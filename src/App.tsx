@@ -3,6 +3,8 @@ import styled from "styled-components";
 import PageTitle from "./components/PageTitle";
 import WhoAreWe from "./components/WhoAreWe";
 import People from "./components/People";
+import PabloCalvo from "./components/PabloCalvo";
+import ChessTools from "./components/ChessTools";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <WhoAreWe/>
       <People/>
       <Openings/>
+      <ChessTools/>
+      <PabloCalvo/>
     </Container>
   );
 }

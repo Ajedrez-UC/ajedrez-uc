@@ -3,7 +3,7 @@ import { changePGNwithSymbols } from "../utils/functions";
 import { Chessboard } from "react-chessboard";
 import styled from "styled-components";
 import MovesTable from "./MovesTable";
-import lichess_svg from "../images/lichess.svg";
+import lichess_svg from "../assets/lichess.svg";
 
 function Opening({opening}: {opening: IOpening}){
 

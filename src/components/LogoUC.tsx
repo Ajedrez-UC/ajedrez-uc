@@ -1,4 +1,4 @@
-import uc_logo from '../images/uc_logo.svg';
+import uc_logo from '../assets/uc_logo.svg';
 import styled from 'styled-components';
 import ReactCurvedText from 'react-curved-text';
 

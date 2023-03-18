@@ -40,6 +40,8 @@ const Container = styled.div`
   justify-content: center;
   width: 100%;
   background-color: #cbd5e1;
+  padding: 20px 0;
+  padding-bottom: 40px;
 
 `;
 
