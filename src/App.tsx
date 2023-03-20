@@ -7,6 +7,7 @@ import ChessTools from "./components/ChessTools";
 import Library from "./components/Library";
 import Footer from "./components/Footer";
 import FAQ from "./components/FAQ";
+import Legends from "./components/Legends";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <PageTitle/>
       <WhoAreWe/>
       <People/>
+      <Legends/>
       <FAQ/>
       <Library/>
       <ChessTools/>
