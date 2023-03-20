@@ -52,12 +52,12 @@ function People(){
                     showThumbs={false}
                     showStatus={false}
                     >
-                    <div>
+                    <ImageContainer>
                         <img src={selecc1} alt="selecc1" />
-                    </div>
-                    <div>
+                    </ImageContainer>
+                    <ImageContainer>
                         <img src={selecc2} alt="selecc2" />
-                    </div>
+                    </ImageContainer>
                 </Carousel>
             </CarouselContainer>
         </Container>
@@ -66,13 +66,14 @@ function People(){
 
 export default People;
 
+const ImageContainer = styled.div`
+    border-radius: 10px;
+`;
 
 const CarouselContainer = styled.div`
     margin: 10px;
     margin-top: 30px;
-    padding: 10px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 `;
 
 

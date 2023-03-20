@@ -5,7 +5,7 @@ function Footer(){
     return (
         <Container>
             <span>
-            Made with ❤️ by <Link href="https://github.com/AlfreMK">Alfredo Medina</Link>
+            Made with ❤️ by <Link href="https://github.com/AlfreMK/ajedrez-uc">ajedrez-uc</Link>
             </span>
         </Container>
     );
@@ -18,9 +18,9 @@ const Container = styled.div`
     flex-direction: row;
     width: 100%;
     justify-content: flex-end;
-    background-color: rgb(11 16 26);
+    background-color: rgb(2, 132, 199);
     padding: 20px 0;
-    color: #94a3b8;
+    color: white;
     font-size: 0.8rem;
     & span {
         margin-right: 20px;
@@ -28,14 +28,14 @@ const Container = styled.div`
 `;
 
 const Link = styled.a`
-    color: #94a3b8;
+    color: white;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     font-weight: bold;
     cursor: pointer;
     &:hover {
-        filter: brightness(1.2);
+        opacity: 0.8;
         text-decoration: underline;
     }
 `;

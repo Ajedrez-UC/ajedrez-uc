@@ -17,7 +17,15 @@ interface IPlayer{
     title: string,
 }
 
+interface ITournament{
+    name: string,
+    date: string,
+    url: string,
+    result: string,
+}
+
 export type {
     IOpening,
     IPlayer,
+    ITournament,
 }
