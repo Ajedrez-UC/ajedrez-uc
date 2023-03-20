@@ -4,6 +4,11 @@ import daniel from "../images/daniel.png";
 import dan from "../images/dan.png";
 import bele from "../images/bele.png";
 
+import { Carousel } from 'react-responsive-carousel';
+import selecc1 from "../images/selecc1.png";
+import selecc2 from "../images/selecc2.png";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 function People(){
     return(
@@ -39,11 +44,37 @@ function People(){
                     pero ya no llora cuando pierde una partida.
                 </span>
             </Person>
+            <CarouselContainer>
+                <Carousel 
+                    autoPlay={true}
+                    interval={4000}
+                    infiniteLoop={true}
+                    showThumbs={false}
+                    showStatus={false}
+                    >
+                    <div>
+                        <img src={selecc1} alt="selecc1" />
+                    </div>
+                    <div>
+                        <img src={selecc2} alt="selecc2" />
+                    </div>
+                </Carousel>
+            </CarouselContainer>
         </Container>
     )
 }
 
 export default People;
+
+
+const CarouselContainer = styled.div`
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+`;
+
 
 const Image = styled.img`
     width: 150px;
