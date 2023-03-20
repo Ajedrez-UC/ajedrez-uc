@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import pablo from "../images/pablo.jpg";
+import phrases_pablo from "../data/phrases_pablo.json";
 
 function PabloCalvo() {
+    const phrases = JSON.parse(JSON.stringify(phrases_pablo));
     return (
         <Container>
             <SubContainer>
@@ -17,12 +19,45 @@ function PabloCalvo() {
                 Gracias por ser nuestro profesor y maestro.
                 Siempre estarás en nuestros corazones y sabemos que donde sea que estés, nos seguirás acompañando.
                 </Description>
+                <Bold style={{fontSize: "1.6rem", margin:"30px"}}>Frases célebres del maestro</Bold>
+                <PhrasesContainer>
+                    {phrases.map((phrase: string, index: number) => (
+                        <Phrase key={index}>
+                            {upperCaseFirstLetter(phrase)}
+                        </Phrase>
+                    ))}
+                </PhrasesContainer>
             </SubContainer>
         </Container>
     )
 };
 
 export default PabloCalvo;
+
+
+const upperCaseFirstLetter = (word: string) => word[0].toUpperCase() + word.slice(1);
+
+
+const Phrase = styled.div`
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f8fafc;
+    color: #111827;
+    font-style: italic;
+`;
+
+const PhrasesContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+`;
+
+
+
 
 const Image = styled.img`
     width: 250px;
