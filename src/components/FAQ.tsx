@@ -21,9 +21,8 @@ function FAQ(){
             <Question>
                 <Title>¿Puedo ir de oyente a las clases?</Title>
                 <p>
-                    Este semestre (2023-1) no se puede ir de oyente a las clases a Ajedrez I.
-                    ¡Pero sí puedes ir de oyente a las clases de Selección de Ajedrez!
-                    Los <Bold>lunes y miércoles de 18:30 a 19:50 hrs</Bold>.
+                    Por el momento, este semestre (2023-1) no se puede ir de oyente ni a las clases a Ajedrez I ni a la 
+                    selección.
                 </p>
             </Question>
             <Question>
