@@ -11,6 +11,7 @@ import Legends from "./components/Legends";
 import Fenaudes from "./components/Fenaudes";
 import { useState } from "react";
 
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -24,6 +25,19 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import TabPanel from "./components/TabPanel";
 
 
+const muiTheme = createTheme({
+  palette: {
+    primary: {
+      main: '#0284c7',
+    },
+    secondary: {
+      main: '#f8fafc',
+    },
+  },
+});
+
+
+
 function App() {
   const [value, setValue] = useState(0);
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -31,24 +45,23 @@ function App() {
   };
   return (
     <Container>
-      
-      
       <PageTitle/>
       <TabContainer>
-        <Tabs 
-            value={value}
-            onChange={handleChange}
-            variant="scrollable"
-            scrollButtons
-            allowScrollButtonsMobile
-            style={{width: "100%"}}
-            >
-          <Tab label="Nosotros" icon={<GroupsIcon />} {...a11yProps(0)} />
-          <Tab label="Desempeño" icon={<EmojiEventsIcon />} {...a11yProps(1)} />
-          <Tab label="FAQ" icon={<HelpIcon />} {...a11yProps(2)} />
-          <Tab label="Útiles" icon={<MenuBookIcon />} {...a11yProps(3)} />
-          <Tab label="Pablo Calvo" icon={<FavoriteIcon />} {...a11yProps(4)} />
-        </Tabs>
+        <ThemeProvider theme={muiTheme}>
+          <Tabs 
+              value={value}
+              onChange={handleChange}
+              variant="scrollable"
+              scrollButtons
+              style={{width: "100%"}}
+              >
+            <Tab label="Nosotros" icon={<GroupsIcon />} {...a11yProps(0)} />
+            <Tab label="Desempeño" icon={<EmojiEventsIcon />} {...a11yProps(1)} />
+            <Tab label="FAQ" icon={<HelpIcon />} {...a11yProps(2)} />
+            <Tab label="Útiles" icon={<MenuBookIcon />} {...a11yProps(3)} />
+            <Tab label="Pablo Calvo" icon={<FavoriteIcon />} {...a11yProps(4)} />
+          </Tabs>
+        </ThemeProvider>
       </TabContainer>
       <TabPanel value={value} index={0}>
         <WhoAreWe/>

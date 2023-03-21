@@ -54,8 +54,8 @@ const PhrasesContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0 5px;
 `;
-
 
 
 

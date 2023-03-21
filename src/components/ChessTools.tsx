@@ -12,7 +12,7 @@ function ChessTools(){
             <Links>
                 <span>
                     <Image src={lichess_svg} style={{filter: "invert(1)"}} alt="Lichess" />
-                    <Link href="https://lichess.org/">Lichess</Link>
+                    <Link href="https://lichess.org/study/fm2qC8nM">Estudio para Ajedrez I hecho por MF Pablo Calvo</Link>
                 </span>
                 <span>
                     <Image src={optree} alt="Opening Tree" />
