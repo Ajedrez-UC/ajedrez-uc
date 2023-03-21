@@ -53,6 +53,7 @@ function App() {
               onChange={handleChange}
               variant="scrollable"
               scrollButtons
+              allowScrollButtonsMobile
               style={{width: "100%"}}
               >
             <Tab label="Nosotros" icon={<GroupsIcon />} {...a11yProps(0)} />
