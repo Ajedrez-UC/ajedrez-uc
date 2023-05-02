@@ -1,53 +1,49 @@
 [
-    {
-        "title": "Iniciación",
-        "books": ["https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211952&cid=5E5B60C097FB962E"]
-    },
-    {
-        "title": "Tácticas",
-        "books": [
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211956&cid=5E5B60C097FB962E",
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211961&cid=5E5B60C097FB962E"
-
-        ]
-    },
-    {
-        "title": "Estrategia",
-        "books": [
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211952&cid=5E5B60C097FB962E",
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211958&cid=5E5B60C097FB962E"
-
-        ]
-    },
-    {
-        "title": "Aperturas",
-        "books": [
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211957&cid=5E5B60C097FB962E",
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211963&cid=5E5B60C097FB962E"
-            
-        ]
-    },
-    {
-        "title": "Finales",
-        "books": [
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211954&cid=5E5B60C097FB962E",
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211959&cid=5E5B60C097FB962E"
-            
-        ]
-    },
-    {
-        "title": "Partidas Comentadas",
-        "books": [
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211955&cid=5E5B60C097FB962E",
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211960&cid=5E5B60C097FB962E"
-            
-        ]
-    },
-    {
-        "title": "Nivel 2100 - 2500",
-        "books": [
-            "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211962&cid=5E5B60C097FB962E"
-        ]
-    }
-
+  {
+    "title": "Iniciación",
+    "books": [
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211952&cid=5E5B60C097FB962E"
+    ]
+  },
+  {
+    "title": "Tácticas",
+    "books": [
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211956&cid=5E5B60C097FB962E",
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211961&cid=5E5B60C097FB962E"
+    ]
+  },
+  {
+    "title": "Estrategia",
+    "books": [
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211952&cid=5E5B60C097FB962E",
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211958&cid=5E5B60C097FB962E"
+    ]
+  },
+  {
+    "title": "Aperturas",
+    "books": [
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211957&cid=5E5B60C097FB962E",
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211963&cid=5E5B60C097FB962E"
+    ]
+  },
+  {
+    "title": "Finales",
+    "books": [
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211954&cid=5E5B60C097FB962E",
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211959&cid=5E5B60C097FB962E"
+    ]
+  },
+  {
+    "title": "Partidas Comentadas",
+    "books": [
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211955&cid=5E5B60C097FB962E",
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211960&cid=5E5B60C097FB962E"
+    ]
+  },
+  {
+    "title": "Nivel 2100 - 2500",
+    "books": [
+      "https://onedrive.live.com/?authkey=%21AFb3TEzsdh4k67s&id=5E5B60C097FB962E%211962&cid=5E5B60C097FB962E"
+    ]
+  }
 ]

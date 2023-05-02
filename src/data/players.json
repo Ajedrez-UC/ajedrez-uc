@@ -1,292 +1,290 @@
 [
-    {
-        "name": "MARTíNEZ SANDOVAL David",
-        "code": "3406202",
-        "fed": "CHI",
-        "title": "CM"
-    },
-    {
-        "name": "CHáVEZ DINAMARCA Bastián",
-        "code": "3409511",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "MORALES VERA Pablo Andrés",
-        "code": "3408809",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "PINTO KRAUSE Kurth Brian",
-        "code": "3412857",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "PONCE MIGONE ángel Francisco",
-        "code": "3416844",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "DíAZ MONDACA Diego",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "JENSEN RECUPERO Daniela",
-        "code": "3412229",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "áLVAREZ OLMOS Nicolás",
-        "code": "3422631",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "RAMíREZ FELIú Diego Eduardo",
-        "code": "3414973",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "STRAUB BUSTAMANTE Pedro José",
-        "code": "3411508",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "KAWAS GARCíA Nebil",
-        "code": "3420337",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "NAVARRO GUERRERO Simón Ignacio",
-        "code": "3408566",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Salinas Herrera Pablo Patricio",
-        "code": "3407128",
-        "fed": "CHI",
-        "title": "GM"
-    },
-    {
-        "name": "Santander Ramirez Nicolás Eduardo",
-        "code": "3414981",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Covacevich Stipicich Tamara",
-        "code": "3413527",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Segura Mendoza Sebastián",
-        "code": "189289898",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Kurth Gandolfi Adolfo Javier",
-        "code": "3423808",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "GARRETóN CáRCAMO Rodolfo Ignacio",
-        "code": "3407705",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "VILLA GONZáLEZ Nicolás Alexis",
-        "code": "3440869",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "BERNAL NAVARRETE Marcelo Andrés",
-        "code": "22275126",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "GALLARDO VALENZUELA ANDRéS",
-        "code": "3430715",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Salinas Froemel Vicente",
-        "code": "3453600",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Soto Tobar José",
-        "code": "3444457",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Sebastián Gaete Daniel Eduardo",
-        "code": "3453618",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Donoso Díaz Sebastián",
-        "code": "3416097",
-        "fed": "CHI",
-        "title": "FM"
-    },
-    {
-        "name": "Peña Cifuentes Tomás Alberto",
-        "code": "3421996",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "García Munizaga Vicente",
-        "code": "3460657",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Norero Rivera Diego",
-        "code": "3460720",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Pérez Peters Tomás",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Zilleruelo Cañas Cristóbal",
-        "code": "3457567",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Medina Klapp Alfredo",
-        "code": "3460711",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Cisterna Bastías Belén",
-        "code": "3457028",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Huincahue Rojas Catalina",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Jalil García Andrea",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Cruz Leiva Kamila Ignacia",
-        "code": "3436950",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Santana González Valentina",
-        "code": "3417794",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Cabezas Méndez Sebastián Andrés",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Carrero Valencia Alan Roberto",
-        "code": "3426696",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Donoso Silva Santiago",
-        "code": "3455025",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Villablanca Vega Dan Andrés",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Betancur Pérez Maximiliano",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Villalobos Chang Tien",
-        "code": "3457559",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Quevedo Sartori Martín",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Oviedo Caces Daniela",
-        "code": "3432009",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Medina Tiznado Benjamín",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "álvarez Montiel Mauricio",
-        "code": "3460592",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Vargas Besnier Juan",
-        "code": "0",
-        "fed": "CHI",
-        "title": ""
-    },
-    {
-        "name": "Figueroa Bernal Julia Dennis",
-        "code": "3435300",
-        "fed": "CHI",
-        "title": "WCM"
-    }
-
-
+  {
+    "name": "MARTíNEZ SANDOVAL David",
+    "code": "3406202",
+    "fed": "CHI",
+    "title": "CM"
+  },
+  {
+    "name": "CHáVEZ DINAMARCA Bastián",
+    "code": "3409511",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "MORALES VERA Pablo Andrés",
+    "code": "3408809",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "PINTO KRAUSE Kurth Brian",
+    "code": "3412857",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "PONCE MIGONE ángel Francisco",
+    "code": "3416844",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "DíAZ MONDACA Diego",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "JENSEN RECUPERO Daniela",
+    "code": "3412229",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "áLVAREZ OLMOS Nicolás",
+    "code": "3422631",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "RAMíREZ FELIú Diego Eduardo",
+    "code": "3414973",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "STRAUB BUSTAMANTE Pedro José",
+    "code": "3411508",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "KAWAS GARCíA Nebil",
+    "code": "3420337",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "NAVARRO GUERRERO Simón Ignacio",
+    "code": "3408566",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Salinas Herrera Pablo Patricio",
+    "code": "3407128",
+    "fed": "CHI",
+    "title": "GM"
+  },
+  {
+    "name": "Santander Ramirez Nicolás Eduardo",
+    "code": "3414981",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Covacevich Stipicich Tamara",
+    "code": "3413527",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Segura Mendoza Sebastián",
+    "code": "189289898",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Kurth Gandolfi Adolfo Javier",
+    "code": "3423808",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "GARRETóN CáRCAMO Rodolfo Ignacio",
+    "code": "3407705",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "VILLA GONZáLEZ Nicolás Alexis",
+    "code": "3440869",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "BERNAL NAVARRETE Marcelo Andrés",
+    "code": "22275126",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "GALLARDO VALENZUELA ANDRéS",
+    "code": "3430715",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Salinas Froemel Vicente",
+    "code": "3453600",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Soto Tobar José",
+    "code": "3444457",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Sebastián Gaete Daniel Eduardo",
+    "code": "3453618",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Donoso Díaz Sebastián",
+    "code": "3416097",
+    "fed": "CHI",
+    "title": "FM"
+  },
+  {
+    "name": "Peña Cifuentes Tomás Alberto",
+    "code": "3421996",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "García Munizaga Vicente",
+    "code": "3460657",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Norero Rivera Diego",
+    "code": "3460720",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Pérez Peters Tomás",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Zilleruelo Cañas Cristóbal",
+    "code": "3457567",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Medina Klapp Alfredo",
+    "code": "3460711",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Cisterna Bastías Belén",
+    "code": "3457028",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Huincahue Rojas Catalina",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Jalil García Andrea",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Cruz Leiva Kamila Ignacia",
+    "code": "3436950",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Santana González Valentina",
+    "code": "3417794",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Cabezas Méndez Sebastián Andrés",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Carrero Valencia Alan Roberto",
+    "code": "3426696",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Donoso Silva Santiago",
+    "code": "3455025",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Villablanca Vega Dan Andrés",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Betancur Pérez Maximiliano",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Villalobos Chang Tien",
+    "code": "3457559",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Quevedo Sartori Martín",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Oviedo Caces Daniela",
+    "code": "3432009",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Medina Tiznado Benjamín",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "álvarez Montiel Mauricio",
+    "code": "3460592",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Vargas Besnier Juan",
+    "code": "0",
+    "fed": "CHI",
+    "title": ""
+  },
+  {
+    "name": "Figueroa Bernal Julia Dennis",
+    "code": "3435300",
+    "fed": "CHI",
+    "title": "WCM"
+  }
 ]
