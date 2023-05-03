@@ -5,11 +5,33 @@ import dan from "../images/dan.png";
 import bele from "../images/bele.png";
 
 import { Carousel } from "react-responsive-carousel";
-import selecc1 from "../images/selecc1.png";
-import selecc2 from "../images/selecc2.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import LoadingSpin from "./LoadingSpin";
+
+import { useEffect, useState } from "react";
+
+// https://levelup.gitconnected.com/33a6fabfad16
+const URL_SCRIPT_GET_IMAGES =
+  "https://script.google.com/macros/s/AKfycbwuqXEkFLh_S5IHZ5EzedIP4sjQSS-UJvJvxrfB1b5juxFWMdjRKbN6CS-TYNA2rmB9LQ/exec";
+
+interface IImage {
+  folder_id: string;
+  img_id: string;
+  name: string;
+}
 
 function People() {
+  const [images, setImages] = useState<IImage[]>([]);
+  // {folder_id: "", img_id: "", name: "" }
+
+  useEffect(() => {
+    fetch(URL_SCRIPT_GET_IMAGES)
+      .then((res) => res.json())
+      .then((data) => {
+        setImages(data.data);
+      });
+  }, []);
+
   return (
     <Container>
       <Person>
@@ -44,6 +66,9 @@ function People() {
           pero ya no llora cuando pierde una partida.
         </span>
       </Person>
+      {images.length === 0 && (
+        <LoadingSpin strokeColor="rgb(15 91 190)" size={100} margin="50px 0 0 0"/>
+      )}
       <CarouselContainer>
         <Carousel
           autoPlay={true}
@@ -52,12 +77,14 @@ function People() {
           showThumbs={false}
           showStatus={false}
         >
-          <ImageContainer>
-            <img src={selecc1} alt="selecc1" />
-          </ImageContainer>
-          <ImageContainer>
-            <img src={selecc2} alt="selecc2" />
-          </ImageContainer>
+          {images.map((image, id) => (
+            <ImageContainer key={id}>
+              <img
+                src={`https://drive.google.com/uc?export=view&id=${image.img_id}`}
+                alt={image.name}
+              />
+            </ImageContainer>
+          ))}
         </Carousel>
       </CarouselContainer>
     </Container>

@@ -1,10 +1,29 @@
 import styled from "styled-components";
-import tournaments from "../data/tournaments.json";
+import LoadingSpin from "./LoadingSpin";
 import { ITournament } from "../utils/interfaces";
+import Papa from "papaparse";
+import { useState, useEffect } from "react";
+
+const URL_CSV =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSIYvfm5ECcVUGDuVofJuxIVRZ8O6kK0vOvxlVFNtZwiKTLmz6I0OWsx0N6ta3oqntXcCWnMXCS4dD5/pub?output=csv";
 
 function Fenaudes() {
-  const fenaudes = JSON.parse(JSON.stringify(tournaments));
-  const tournamentsSorted = fenaudes.sort((a: ITournament, b: ITournament) => {
+  const [data, setData] = useState<ITournament[]>([]);
+
+  useEffect(() => {
+    const fetchData = () => {
+      Papa.parse(URL_CSV, {
+        download: true,
+        header: true,
+        complete: (results: any) => {
+          setData(results.data);
+        },
+      });
+    };
+    fetchData();
+  }, []);
+
+  const tournamentsSorted = data.sort((a: ITournament, b: ITournament) => {
     if (a.date < b.date) {
       return 1;
     }
@@ -17,6 +36,9 @@ function Fenaudes() {
   return (
     <Container>
       <h2> FENAUDES </h2>
+      {data.length === 0 && (
+        <LoadingSpin strokeColor="rgb(15 91 190)" size={100} margin="50px 0" />
+      )}
       <FenaudesContainer>
         {tournamentsSorted.map((tournament: ITournament, index: number) => (
           <Tournament key={index}>
