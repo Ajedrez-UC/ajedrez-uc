@@ -5,7 +5,7 @@ import Papa from "papaparse";
 import { useState, useEffect } from "react";
 
 const URL_CSV =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSIYvfm5ECcVUGDuVofJuxIVRZ8O6kK0vOvxlVFNtZwiKTLmz6I0OWsx0N6ta3oqntXcCWnMXCS4dD5/pub?gid=1291968086&single=true&output=csv";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSIYvfm5ECcVUGDuVofJuxIVRZ8O6kK0vOvxlVFNtZwiKTLmz6I0OWsx0N6ta3oqntXcCWnMXCS4dD5/pub?output=csv";
 
 function Fenaudes() {
   const [data, setData] = useState<ITournament[]>([]);
