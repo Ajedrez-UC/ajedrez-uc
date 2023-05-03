@@ -2,7 +2,7 @@
   "name": "ajedrez-uc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alfremk.github.io/ajedrez-uc",
+  "homepage": "https://ajedrez-uc.github.io/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",

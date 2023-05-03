@@ -1,6 +1,6 @@
 # Ajedrez UC
 ## Description
-This repository contains the source code of Ajedrez UC web application, developed in TypeScript + React. The application is deployed with github pages [alfremk.github.io/ajedrez-uc/](https://alfremk.github.io/ajedrez-uc/).
+This repository contains the source code of Ajedrez UC web application, developed in TypeScript + React. The application is deployed with github pages [https://ajedrez-uc.github.io/](https://ajedrez-uc.github.io/).
 
 ## External libraries and frameworks installed
 - [Styled Components](https://styled-components.com/)
