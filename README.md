@@ -10,6 +10,7 @@ This repository contains the source code of Ajedrez UC web application, develope
 - [react-animate-height](https://www.npmjs.com/package/react-animate-height)
 - [react-curved-text](https://www.npmjs.com/package/react-curved-text)
 - [react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
+- [papaparse](https://www.npmjs.com/package/papaparse)
 
 ## Run the application
 To run it, read the [README.development.md](README.development.md) file.

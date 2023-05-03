@@ -1,10 +1,11 @@
 // import legends from "../data/players.json";
 import styled from "styled-components";
+import LoadingSpin from "./LoadingSpin";
 import { IPlayer } from "../utils/interfaces";
 import Papa from "papaparse";
 import { useState, useEffect } from "react";
 
-const URL_DRIVE =
+const URL_CSV =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vQfScGlam1Qj7u58RnG_NO0JHoODUYb2k63ApgzkVsYemxCTl48zAY1yzCfhr4bfPRCq7yIzSDae24K/pub?gid=950300490&single=true&output=csv";
 
 function Legends() {
@@ -12,7 +13,7 @@ function Legends() {
 
   useEffect(() => {
     const fetchData = () => {
-      Papa.parse(URL_DRIVE, {
+      Papa.parse(URL_CSV, {
         download: true,
         header: true,
         complete: (results: any) => {
@@ -81,6 +82,13 @@ function Legends() {
             ))}
           </tbody>
         </Table>
+        {data.length === 0 && (
+          <LoadingSpin
+            strokeColor="rgb(15 91 190)"
+            size={100}
+            margin="50px 0"
+          />
+        )}
       </SubContainer>
     </Container>
   );
