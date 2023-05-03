@@ -5,7 +5,7 @@ function Footer() {
     <Container>
       <span>
         Made with ❤️ by{" "}
-        <Link href="https://github.com/AlfreMK/ajedrez-uc">ajedrez-uc</Link>
+        <Link href="https://github.com/Ajedrez-UC">ajedrez-uc</Link>
       </span>
     </Container>
   );
