@@ -1,9 +1,29 @@
-import legends from "../data/players.json";
+// import legends from "../data/players.json";
 import styled from "styled-components";
 import { IPlayer } from "../utils/interfaces";
+import Papa from "papaparse";
+import { useState, useEffect } from "react";
+
+const URL_DRIVE =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQfScGlam1Qj7u58RnG_NO0JHoODUYb2k63ApgzkVsYemxCTl48zAY1yzCfhr4bfPRCq7yIzSDae24K/pub?gid=950300490&single=true&output=csv";
 
 function Legends() {
-  const players = JSON.parse(JSON.stringify(legends)).map((player: IPlayer) => {
+  const [data, setData] = useState<IPlayer[]>([]);
+
+  useEffect(() => {
+    const fetchData = () => {
+      Papa.parse(URL_DRIVE, {
+        download: true,
+        header: true,
+        complete: (results: any) => {
+          setData(results.data);
+        },
+      });
+    };
+    fetchData();
+  }, []);
+
+  const playersNameFix = data.map((player: IPlayer) => {
     player.name = player.name
       .split(" ")
       .map(
@@ -12,7 +32,8 @@ function Legends() {
       .join(" ");
     return player;
   });
-  const playersSorted = players.sort((a: IPlayer, b: IPlayer) => {
+
+  const playersSorted = playersNameFix.sort((a: IPlayer, b: IPlayer) => {
     if (a.name < b.name) {
       return -1;
     }
@@ -46,13 +67,15 @@ function Legends() {
                 {player.code === "0" ? (
                   <td>-</td>
                 ) : (
-                  <Link
-                    href={`https://ratings.fide.com/profile/${player.code}`}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <td>{player.code}</td>
-                  </Link>
+                  <td>
+                    <Link
+                      href={`https://ratings.fide.com/profile/${player.code}`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {player.code}
+                    </Link>
+                  </td>
                 )}
               </Tr>
             ))}
