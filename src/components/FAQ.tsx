@@ -27,7 +27,10 @@ function FAQ() {
           <Title>¿Puedo ir de oyente a las clases?</Title>
           <p>
             Por el momento, este semestre (2023-1) no se puede ir de oyente ni a
-            las clases a Ajedrez I ni a la selección.
+            las clases de Ajedrez I ni a la selección. Sin embargo, hay un
+            <Bold> espacio disponible todos los viernes de 13:00 a 14:50 </Bold>
+            para que puedas ir a jugar ajedrez con seleccionados y gente
+            interesada en el ajedrez.
           </p>
         </Question>
         <Question>
@@ -51,7 +54,7 @@ function FAQ() {
         <Question>
           <Title>¿De cuánto es el nivel promedio en la selección?</Title>
           <p>
-            El rango de nivel es muy amplio, pero la mayoría de los
+            El rango de nivel es muy amplio, pero <Bold>la mayoría</Bold> de los
             seleccionados está entre los 1700 y 2200 Elo Lichess.
           </p>
         </Question>
